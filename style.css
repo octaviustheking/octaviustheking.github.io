@@ -423,4 +423,8 @@ h1 {
     .contact-box {
         width: 100%;
     }
+    .link-cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
