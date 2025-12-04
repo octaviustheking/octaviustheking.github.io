@@ -516,6 +516,27 @@ h1 {
     transform: rotate(180deg);
 }
 
+.latest-card {
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+    background: linear-gradient(-45deg, #3ea6b8 0%, #1c3f5e 25%);
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    width: fit-content;
+    overflow-wrap: normal;
+}
+
+.latest-card a {
+    color: white;
+}
+
+.latest-card iframe {
+    max-width: 70%;
+}
+
 @media (max-width: 600px) {
     .immaturegoat {
         display: none;
