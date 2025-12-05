@@ -80,11 +80,19 @@
             <ul class="collapse month-posts" id="december25Posts">
                 <li><a href="#4">yay december</a></li>
                 <li><a href="#5">Studio BDT website</a></li>
+                <li><a href="#5">blackhack and manga</a></li>
             </ul>
         </div>
     </aside>
 
     <main class="log-content">
+        <article class="log-card">
+            <h2 id="6">blackhack and manga</h2>
+            <h3>12/4/25</h3>
+            <p>So I found this new manga called Koi to Yobu ni wa Sasayaka desuga, or It's Not Quite Love Yet, but..., and it's by the artist of Horimiya (so I already knew the art was going to be PEAK). Unfortunately, one chapter releases EVERY MONTH. THERE ARE ONLY TWO CHAPTERS. PLEASE I NEED MORE!!</p>
+            <p>About Blackhack, I was playing it with my friend in my software class because I was really bored after finishing all my work. I played for like 30 minutes, so I discovered this bug. I thought my card counting algorithm worked fine, but apparantly it doesn't work in the one case of one ten and one ace. This would be 21, but my algorithm counted it as 11. Basically, this happens because I add one for every ace there is, and if the amount is less than 11, I add 10 (the rest of the value of the ace). Unfortunately, 10 + 1 = 11, which is less than 11. This leads to the 10 not being added even though it can. </p>
+            <p>I have two ways that I want to go about fixing this. The first way is add 11 for every ace, and if the value is above 21, subtract 10 for every ace there is until it is below 21. However, I don't really like this solution. The other way is to check with an if loop if adding 10 would cause the player to bust, instead of checking if its below 11. I like this one better, but I'll do some testing to see which one is better. </p>
+        </article>
         <article class="log-card">
             <h2 id="5">Studio BDT website</h2>
             <h3>12/3/25</h3>
