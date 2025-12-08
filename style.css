@@ -516,6 +516,20 @@ h1 {
     transform: rotate(180deg);
 }
 
+.latest-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -50px;
+    padding: 20px 25px;         
+    width: 90%;               
+    background: linear-gradient(-45deg, #3ea6b8 0%, #1c3f5e 75%);
+    color: white;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
 .latest-card {
     border-radius: 25px;
     text-align: center;
@@ -535,6 +549,11 @@ h1 {
 
 .latest-card iframe {
     max-width: 70%;
+}
+
+.latest-card img {
+    max-width: 300px;
+    border-radius: 25px;
 }
 
 @media (max-width: 600px) {
@@ -574,5 +593,9 @@ h1 {
 
     .log-content {
         width: 100%;
+    }
+
+    .latest-card img {
+        max-width: 150px;
     }
 }
