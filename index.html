@@ -3,87 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ImmatureGoat</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" 
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
-    crossorigin="anonymous">
+    <title>immaturegoat</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 </head>
-<body class="p-3 mb-2 text-white roboto-mono">
-
-    <div id="splash">
-        <div id="terminal-text"></div>
-        <div id="start-msg">FINISHED (Click to Start)</div>
-    </div>  
-
-    <div class="main-content">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-            <a class="navbar-brand" href="index.html">ImmatureGoat</a>
-
-            <button class="navbar-toggler" type="button" 
-            data-bs-toggle="collapse" 
-            data-bs-target="#navbarResponsive" 
-            aria-controls="navbarResponsive" 
-            aria-expanded="false" 
-            aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="links.html">Links</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="latest.html">Latest</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="log.html">Log</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+<body>
+    <div id="container">
+        <div id="content">
+            <div class="card" id="greeting">
+                <img src="images/pfp.jpg" id="pfp">
+                <div>
+                <h1>Hi there!</h1>
+                <h2>I'm immaturegoat/augusta.</h2>
+                </div>
             </div>
-        </nav>
 
-        <img class="immaturegoat float-left hover-card" src="images/immaturegoat.jpg">
+            <div class="card" id="bio">
+                <h2>About me</h2>
+                <p>I'm a high school student who (mostly) likes to code. I've been coding for 8 years now. I code stuff in Rust, Python, and do front-end web dev!</p>
+                <p>Check out my github and social info (down below)! I'm open to any sort of communication, though I mostly use discord.</p>
+            </div>
 
-        <div class="speech-bubble hover-card">
-            <h1 class="display-1 speech-bubble-text pulse" style="padding-top: 1px;">Heya!</h1>
-            <h1 class="speech-bubble-text">ImmatureGoat here!</h1>
+            <div class="half-cards">
+                <a href="https://github.com/immaturegoat" class="half-card" id="github">github</a>
+                <a href="https://hackatime.hackclub.com/@immaturegoat" class="half-card" id="hackatime">hackatime</a>
+            </div>
+
+            <div class="half-cards">
+                <p class="half-card">immatureninjagoat@gmail.com</p>
+                <p class="half-card" id="discord">discord: immaturegoat (i use this the most)</p>
+            </div>
+
+            <div class="card" id="project-header">
+                <h2>Projects</h2>
+                <p>Here are some projects I'm proud of!</p>
+            </div>
         </div>
-        
-        <div class="info-wrapper">
-            <div class="about-me hover-card">
-                <h1>About Me</h1>
 
-                <p>Terrible programmer who mainly uses Python, Java, HTML, CSS, and Javascript</p>
-                <p>Co-owner of <a href="https://studio-bdt.github.io" target="_blank">Studio BDT</a></p>
-                <p>USACO silver finally</p>
-                <p>CF 1180 T-T</p>
-                <p>Has a cool name IRL</p>
-                <p>Future trillionaire</p>
-                <p>Intro to Software sucks</p>
-                <p>About to top SamZua at next year's ACSL tryout</p>
-                <p><s>Web developer final boss</s></p>
+        <div id="background-cards">
+            <div class="row row-left">
+                <div class="row-track">
+                    <div class="image-card"><img src="images/games/limbus.png"></div>
+                    <div class="image-card"><img src="images/games/lobotomy.png"></div>
+                    <div class="image-card"><img src="images/games/stellaris.png"></div>
+                    <div class="image-card"><img src="images/games/cs2.png"></div>
+                    <div class="image-card"><img src="images/games/cotl.png"></div>
+                    <div class="image-card"><img src="images/games/hades.png"></div>
+                    <div class="image-card"><img src="images/games/zzz.png"></div>
+                    <div class="image-card"><img src="images/games/ow.png"></div>
+                    <div class="image-card"><img src="images/games/rift.png"></div>
+                    <div class="image-card"><img src="images/games/rounds.png"></div>
+                    <div class="image-card"><img src="images/games/thronefall.png"></div>
+                    <div class="image-card"><img src="images/games/awaria.png"></div>
+                    <div class="image-card"><img src="images/games/helltaker.png"></div>
+                    <div class="image-card"><img src="images/games/celeste.png"></div>
+                    <div class="image-card"><img src="images/games/coal.png"></div>
+                    <div class="image-card"><img src="images/games/hoi.png"></div>
+                    <div class="image-card"><img src="images/games/undertale.png"></div>
+
+                    <div class="image-card"><img src="images/games/limbus.png"></div>
+                    <div class="image-card"><img src="images/games/lobotomy.png"></div>
+                    <div class="image-card"><img src="images/games/stellaris.png"></div>
+                    <div class="image-card"><img src="images/games/cs2.png"></div>
+                    <div class="image-card"><img src="images/games/cotl.png"></div>
+                    <div class="image-card"><img src="images/games/hades.png"></div>
+                    <div class="image-card"><img src="images/games/zzz.png"></div>
+                    <div class="image-card"><img src="images/games/ow.png"></div>
+                    <div class="image-card"><img src="images/games/rift.png"></div>
+                    <div class="image-card"><img src="images/games/rounds.png"></div>
+                    <div class="image-card"><img src="images/games/thronefall.png"></div>
+                    <div class="image-card"><img src="images/games/awaria.png"></div>
+                    <div class="image-card"><img src="images/games/helltaker.png"></div>
+                    <div class="image-card"><img src="images/games/celeste.png"></div>
+                    <div class="image-card"><img src="images/games/coal.png"></div>
+                    <div class="image-card"><img src="images/games/hoi.png"></div>
+                    <div class="image-card"><img src="images/games/undertale.png"></div>
+                </div>
             </div>
-
-            <blockquote class="blockquote hover-card">
-                <p class="mb-0">ImmatureGoat is extremely cool.</p>
-                <footer class="blockquote-footer" style="color: black;">Sun Tzu, <cite title="Source Title">The Art of War</cite></footer>
-            </blockquote>
+            <div class="row row-right">
+                <div class="row-track">
+                    <div class="image-card"><img src="images/media/gwitch.png"></div>
+                    <div class="image-card"><img src="images/media/frieren.png"></div>
+                    <div class="image-card"><img src="images/media/sakadays.png"></div>
+                    <div class="image-card"><img src="images/media/..."></div>
+                </div>
+            </div>
         </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
 </body>
 </html>
